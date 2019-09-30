@@ -16,19 +16,15 @@ const IndexPage = () => (
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
-          <h1>Hyperspace</h1>
+          <h1>Interludio Costa Rica</h1>
           <p>
-            Just another fine responsive site template designed by{' '}
-            <a href="http://html5up.net">HTML5 UP</a>
-            <br />
-            and released for free under the{' '}
-            <a href="http://html5up.net/license">Creative Commons</a>.
+            Somos la Iglesia de la gente imperfecta que ha aprendido a amarse.
           </p>
           <ul className="actions">
             <li>
-              <Scroll type="id" element="one">
-                <a href="#one" className="button">
-                  Learn more
+              <Scroll type="id" element="vision-mision">
+                <a href="#vision-mision" className="button">
+                  Conocé más
                 </a>
               </Scroll>
             </li>
@@ -36,26 +32,50 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="one" className="wrapper style2 spotlights">
+      <section id="vision-mision" className="wrapper style3 fade-up">
+        <div className="inner">
+          {/* <h2>Visión y Misión</h2> */}
+          <div className="features">
+            <section>
+              <span className="icon major fa-users" />
+              <h3>Visión</h3>
+              <p>
+                Crear una iglesia seguidora de Jesús y ser una comunidad
+                reconciliadora y un refugio que integra a todas las personas sin
+                distinción alguna.
+              </p>
+              <p>2 Co 5:8, Hch 10:34, Ro 2:11, Gal 2:6, Jo 20:1-9</p>
+            </section>
+            <section>
+              <span className="icon major fa-globe" />
+              <h3>Misión</h3>
+              <p>Colaborar con Dios en su causa por sanar al mundo.</p>
+              <p>1 Co 3:9</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="valores" className="wrapper style2 spotlights">
         <section>
           <a href="/#" className="image" alt="image">
             <img src={pic1} alt="" data-position="center center" />
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Sed ipsum dolor</h2>
+              <h2>No se admiten personas perfectas</h2>
               <p>
                 Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
                 turpis mauris, eu ultricies erat malesuada quis. Aliquam
                 dapibus.
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <Link className="button" to="/generic">
-                    Learn more
+                    Conocé más
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
@@ -65,19 +85,22 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Feugiat consequat</h2>
+              <h2>
+                En lo esencial estemos de acuerdo, en lo no esencial tengamos
+                libertad
+              </h2>
               <p>
                 Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
                 turpis mauris, eu ultricies erat malesuada quis. Aliquam
                 dapibus.
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <Link className="button" to="/generic">
-                    Learn more
+                    Conocé más
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
@@ -87,96 +110,81 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Ultricies aliquam</h2>
+              <h2>Somos naturalmente sobrenaturales</h2>
               <p>
                 Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
                 turpis mauris, eu ultricies erat malesuada quis. Aliquam
                 dapibus.
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <Link className="button" to="/generic">
-                    Learn more
+                    Conocé más
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
       </section>
 
-      <section id="two" className="wrapper style3 fade-up">
+      <section
+        id="madurez-espiritual"
+        className="wrapper style1 fullscreen fade-up"
+      >
         <div className="inner">
-          <h2>What we do</h2>
+          <h2>¿Qué es madurez espiritual?</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
+            Consideramos que una persona es madura espiritualmente cuando
+            <br />
+            desde su humildad se hace responsable de su propia fe,
+            <br />
+            manteniendo una perspectiva crítica.
           </p>
-          <div className="features">
-            <section>
-              <span className="icon major fa-code" />
-              <h3>Lorem ipsum amet</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-lock" />
-              <h3>Aliquam sed nullam</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-cog" />
-              <h3>Sed erat ullam corper</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-desktop" />
-              <h3>Veroeros quis lorem</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-chain" />
-              <h3>Urna quis bibendum</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-diamond" />
-              <h3>Aliquam urna dapibus</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-          </div>
-          <ul className="actions">
-            <li>
-              <Link className="button" to="/generic">
-                Learn more
-              </Link>
-            </li>
-          </ul>
         </div>
       </section>
 
-      <section id="three" className="wrapper style1 fade-up">
+      <section id="slogans" className="wrapper style2 spotlights">
+        <section className="slogan-1">
+          <div className="content">
+            <div className="inner">
+              <h2>Somos refugio, no trinchera.</h2>
+            </div>
+          </div>
+        </section>
+        <section className="slogan-2">
+          <div className="content">
+            <div className="inner">
+              <h2>Se puede pertenecer antes que creer.</h2>
+            </div>
+          </div>
+        </section>
+        <section className="slogan-3">
+          <div className="content">
+            <div className="inner">
+              <h2>Jesús debe de ser experimentado, no explicado.</h2>
+            </div>
+          </div>
+        </section>
+        <section className="slogan-4">
+          <div className="content">
+            <div className="inner">
+              <h2>No tenemos posiciones, tenemos conversaciones.</h2>
+            </div>
+          </div>
+        </section>
+        <section className="slogan-5">
+          <div className="content">
+            <div className="inner">
+              <h2>Somos iglesia para los desiglesiados.</h2>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="contacto" className="wrapper style1 fade-up">
         <div className="inner">
-          <h2>Get in touch</h2>
+          <h2>Conversemos</h2>
           <p>
             Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
             turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
@@ -188,22 +196,22 @@ const IndexPage = () => (
               <form method="post" action="#">
                 <div className="fields">
                   <div className="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <label for="name">Nombre</label>
+                    <input type="text" name="nombre" id="name" />
                   </div>
                   <div className="field half">
-                    <label for="email">Email</label>
+                    <label for="email">Correo electrónico</label>
                     <input type="text" name="email" id="email" />
                   </div>
                   <div className="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5" />
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="message" rows="5" />
                   </div>
                 </div>
                 <ul className="actions">
                   <li>
                     <a href="/#" className="button submit">
-                      Send Message
+                      Enviar Mensaje
                     </a>
                   </li>
                 </ul>
@@ -212,49 +220,44 @@ const IndexPage = () => (
             <section>
               <ul className="contact">
                 <li>
-                  <h3>Address</h3>
+                  <h3>Dirección</h3>
                   <span>
-                    12345 Somewhere Road #654
+                    Auditorio Universidad Veritas Zapote
                     <br />
-                    Nashville, TN 00000-0000
+                    San José
                     <br />
-                    USA
+                    Costa Rica
                   </span>
                 </li>
                 <li>
-                  <h3>Email</h3>
-                  <a href="/#">user@untitled.tld</a>
+                  <h3>Correo electrónico</h3>
+                  <a mailto="info@interludio.org">info@interludio.org</a>
                 </li>
                 <li>
-                  <h3>Phone</h3>
-                  <span>(000) 000-0000</span>
-                </li>
-                <li>
-                  <h3>Social</h3>
+                  <h3>Redes sociales</h3>
                   <ul className="icons">
                     <li>
-                      <a href="/#" className="fa-twitter">
+                      <a
+                        href="https://twitter.com/com_interludio"
+                        className="fa-twitter"
+                      >
                         <span className="label">Twitter</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#" className="fa-facebook">
+                      <a
+                        href="http://www.facebook.com/InterludioCostaRica"
+                        className="fa-facebook"
+                      >
                         <span className="label">Facebook</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#" className="fa-github">
-                        <span className="label">GitHub</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-instagram">
+                      <a
+                        href="https://www.instagram.com/inter_cr/"
+                        className="fa-instagram"
+                      >
                         <span className="label">Instagram</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-linkedin">
-                        <span className="label">LinkedIn</span>
                       </a>
                     </li>
                   </ul>

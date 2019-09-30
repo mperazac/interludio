@@ -1,0 +1,24 @@
+#slogans {
+  > section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    //background-attachment: fixed;
+    background-size: cover;
+  }
+  .slogan-1 {
+    background-image: url(https://images.unsplash.com/photo-1473773386757-42bbe7288351);
+  }
+  .slogan-2 {
+    background-image: url(https://images.unsplash.com/photo-1525026198548-4baa812f1183);
+  }
+  .slogan-3 {
+    background-image: url(https://images.unsplash.com/photo-1447619297994-b829cc1ab44a);
+  }
+  .slogan-4 {
+    background-image: url(https://images.unsplash.com/photo-1568214082591-b09a44f83d42);
+    background-position: top center;
+  }
+  .slogan-5 {
+    background-image: url(https://images.unsplash.com/photo-1513682121497-80211f36a7d3);
+  }
+}
