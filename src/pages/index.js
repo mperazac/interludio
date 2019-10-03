@@ -64,7 +64,7 @@ const IndexPage = () => (
           <div className="content">
             <div className="inner">
               <h2>No se admiten personas perfectas</h2>
-              <p>
+              {/* <p>
                 Somos la Iglesia de la gente imperfecta que ha aprendido a
                 amarse. Hemos corrido el riesgo de amar a otros seres humanos
                 igual de imperfectos que nosotros mismos. De lo contrario el
@@ -75,14 +75,14 @@ const IndexPage = () => (
                 comunidad hay permiso de fallar, tenemos licencia para el error.
                 Así se cumple la misión del mismo Cristo al venir a los
                 "enfermos" y no a los "sanos" (Mt. 9:12-13).
-              </p>
-              {/* <ul className="actions">
+              </p> */}
+              <ul className="actions">
                 <li>
                   <Link className="button" to="/generic">
                     Conocé más
                   </Link>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </section>
@@ -96,7 +96,7 @@ const IndexPage = () => (
                 En lo esencial estemos de acuerdo, en lo no esencial tengamos
                 libertad
               </h2>
-              <p>
+              {/* <p>
                 Con esta frase del Conde Zinzendorf resumimos nuestro "ser
                 inclusivos" tal como Cristo mismo lo fue. Lo esencial nos une y
                 nos une eternamente. Para cualquier tipo de relación el milagro
@@ -105,25 +105,29 @@ const IndexPage = () => (
                 otros en una gran diversidad de expresiones espirituales,
                 sabiéndonos unidos por un Solo Cristo, representa una de las
                 fortalezas de nuestra comunidad.
-              </p>
-              {/* <ul className="actions">
+              </p> */}
+              <ul className="actions">
                 <li>
                   <Link className="button" to="/generic">
                     Conocé más
                   </Link>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </section>
         <section>
           <a href="/#" className="image">
-            <img src={pic3} alt="" data-position="25% 25%" />
+            <img
+              src="https://images.unsplash.com/photo-1454923634634-bd1614719a7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              alt=""
+              data-position="25% 25%"
+            />
           </a>
           <div className="content">
             <div className="inner">
               <h2>Somos naturalmente sobrenaturales</h2>
-              <p>
+              {/* <p>
                 Ni somos completamente naturales ni completamente espirituales.
                 Tenemos la hermosa particularidad de haber nacido a una vida
                 espiritual en medio de nuestra vida natural. Esto hace que nos
@@ -137,14 +141,14 @@ const IndexPage = () => (
                 o entra en una depresión, entenderemos que aun sigue siendo un
                 ser humano Natural y lo animaremos con la esperanza de lo
                 Sobrenatural que nos ha sido dado (Hch. 1:8).
-              </p>
-              {/* <ul className="actions">
+              </p> */}
+              <ul className="actions">
                 <li>
                   <Link className="button" to="/generic">
                     Conocé más
                   </Link>
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </section>
