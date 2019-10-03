@@ -23,7 +23,7 @@ export class Sidebar extends Component {
     return (
       <section id="sidebar">
         <div className="inner">
-          <img src={logo} alt="logo" className="logo" />
+          <img src={logo} alt="interludio-logo" className="logo" />
           <nav>
             <Scrollspy
               items={tabs.map(s => s.href)}

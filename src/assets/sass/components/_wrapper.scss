@@ -55,6 +55,10 @@
 			background-color: _palette(accent3-alt);
 		}
 
+		&.style4 {
+			background-color: _palette(accent4);
+		}
+
 		&.fullscreen {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'column');

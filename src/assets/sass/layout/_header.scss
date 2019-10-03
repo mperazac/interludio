@@ -12,6 +12,10 @@
   cursor: default;
   padding: 1.75em 2em;
 
+  .logo {
+    height: 3.4em;
+  }
+
   > .title {
     border: 0;
     color: _palette(fg-bold);

@@ -4,8 +4,8 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import pic1 from '../images/valores/imperfectos.jpg';
-import pic2 from '../images/valores/esencial.jpg';
-import pic3 from '../images/valores/sobrenaturales.jpg';
+import pic2 from '../images/valores/esencial-sm.jpg';
+import ciudadRefugioLogo from './../images/ciudad_refugio-logo.png';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
 
@@ -23,7 +23,7 @@ const IndexPage = () => (
           <ul className="actions">
             <li>
               <Scroll type="id" element="vision-mision">
-                <a href="#vision-mision" className="button">
+                <a href="#vision-mision" className="button primary">
                   Conocé más
                 </a>
               </Scroll>
@@ -96,19 +96,9 @@ const IndexPage = () => (
                 En lo esencial estemos de acuerdo, en lo no esencial tengamos
                 libertad
               </h2>
-              {/* <p>
-                Con esta frase del Conde Zinzendorf resumimos nuestro "ser
-                inclusivos" tal como Cristo mismo lo fue. Lo esencial nos une y
-                nos une eternamente. Para cualquier tipo de relación el milagro
-                de descubrir qué es lo esencial y qué no lo es supone gran parte
-                de la garantía de estabilidad y sanidad. Descubrirnos unos a
-                otros en una gran diversidad de expresiones espirituales,
-                sabiéndonos unidos por un Solo Cristo, representa una de las
-                fortalezas de nuestra comunidad.
-              </p> */}
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
+                  <Link className="button" to="/lo-esencial">
                     Conocé más
                   </Link>
                 </li>
@@ -119,7 +109,7 @@ const IndexPage = () => (
         <section>
           <a href="/#" className="image">
             <img
-              src={pic3}
+              src="https://via.placeholder.com/438x438"
               alt=""
               data-position="25% 25%"
             />
@@ -133,7 +123,7 @@ const IndexPage = () => (
                 espiritual en medio de nuestra vida natural. Esto hace que nos
                 veamos como simples seres humanos, pero llenos de vida eterna y
                 del poder del Espíritu Santo. Naturalmente fallamos, nos ponemos
-                tristes, nos deprimimos, nosenfermamos, pero Sobrenaturalmente
+                tristes, nos deprimimos, nos enfermamos, pero Sobrenaturalmente
                 podemos vivir la caricia sanadora de nuestro Dios y creer en la
                 caritativa intervención de Cristo en todas las esferas de
                 nuestra vida. Esto nos protege de convertirnos en seres
@@ -174,9 +164,7 @@ const IndexPage = () => (
         <section className="slogan-1">
           <div className="content">
             <div className="inner">
-              <div className="text">
-                <h2>Somos refugio, no trinchera.</h2>
-              </div>
+              <h2>Somos refugio, no trinchera.</h2>
             </div>
           </div>
         </section>
@@ -192,18 +180,14 @@ const IndexPage = () => (
         <section className="slogan-3">
           <div className="content">
             <div className="inner">
-              <div className="text">
-                <h2>Jesús debe de ser experimentado, no explicado.</h2>
-              </div>
+              <h2>Jesús debe de ser experimentado, no explicado.</h2>
             </div>
           </div>
         </section>
         <section className="slogan-4">
           <div className="content">
             <div className="inner">
-              <div className="text">
-                <h2>No tenemos posiciones, tenemos conversaciones.</h2>
-              </div>
+              <h2>No tenemos posiciones, tenemos conversaciones.</h2>
             </div>
           </div>
         </section>
@@ -216,6 +200,33 @@ const IndexPage = () => (
             </div>
           </div>
         </section>
+      </section>
+
+      <section
+        id="ciudad-refugio"
+        className="wrapper style4 fullscreen fade-up"
+      >
+        <div className="inner">
+          <div className="logo-container">
+            <img
+              src={ciudadRefugioLogo}
+              alt="ciudad-refugio-logo"
+              className="ciudad-refugio-logo"
+            />
+          </div>
+          <h2>¿Ya sos parte de este sueño?</h2>
+          <p>
+            Ciudad Refugio serán las instalaciones de Interludio para construir
+            un lugar para todos y todas.
+          </p>
+          <a
+            href="http://ciudadrefugiocr.org/"
+            className="button primary"
+            target="_blank"
+          >
+            Visitá ciudadrefugiocr.org
+          </a>
+        </div>
       </section>
 
       <section id="contacto" className="wrapper style1 fade-up">
