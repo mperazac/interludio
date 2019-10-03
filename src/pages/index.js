@@ -3,9 +3,9 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
-import pic1 from '../images/pic01.jpg';
-import pic2 from '../images/pic02.jpg';
-import pic3 from '../images/pic03.jpg';
+import pic1 from '../images/valores/imperfectos.jpg';
+import pic2 from '../images/valores/esencial.jpg';
+import pic3 from '../images/valores/sobrenaturales.jpg';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
 
@@ -119,7 +119,7 @@ const IndexPage = () => (
         <section>
           <a href="/#" className="image">
             <img
-              src="https://images.unsplash.com/photo-1454923634634-bd1614719a7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              src={pic3}
               alt=""
               data-position="25% 25%"
             />
@@ -174,35 +174,45 @@ const IndexPage = () => (
         <section className="slogan-1">
           <div className="content">
             <div className="inner">
-              <h2>Somos refugio, no trinchera.</h2>
+              <div className="text">
+                <h2>Somos refugio, no trinchera.</h2>
+              </div>
             </div>
           </div>
         </section>
         <section className="slogan-2">
           <div className="content">
             <div className="inner">
-              <h2>Se puede pertenecer antes que creer.</h2>
+              <div className="text">
+                <h2>Se puede pertenecer antes que creer.</h2>
+              </div>
             </div>
           </div>
         </section>
         <section className="slogan-3">
           <div className="content">
             <div className="inner">
-              <h2>Jesús debe de ser experimentado, no explicado.</h2>
+              <div className="text">
+                <h2>Jesús debe de ser experimentado, no explicado.</h2>
+              </div>
             </div>
           </div>
         </section>
         <section className="slogan-4">
           <div className="content">
             <div className="inner">
-              <h2>No tenemos posiciones, tenemos conversaciones.</h2>
+              <div className="text">
+                <h2>No tenemos posiciones, tenemos conversaciones.</h2>
+              </div>
             </div>
           </div>
         </section>
         <section className="slogan-5">
           <div className="content">
             <div className="inner">
-              <h2>Somos iglesia para los desiglesiados.</h2>
+              <div className="text">
+                <h2>Somos iglesia para los desiglesiados.</h2>
+              </div>
             </div>
           </div>
         </section>

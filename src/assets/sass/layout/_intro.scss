@@ -15,6 +15,7 @@
 
   p {
     font-size: 1.25em;
+    color: #fff;
 
     @include breakpoint('<=medium') {
       br {
