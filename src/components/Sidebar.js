@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
+import logo from '../images/logo_interludio-blanco.png';
 
 export class Sidebar extends Component {
   constructor(props) {
@@ -22,6 +23,7 @@ export class Sidebar extends Component {
     return (
       <section id="sidebar">
         <div className="inner">
+          <img src={logo} alt="logo" className="logo" />
           <nav>
             <Scrollspy
               items={tabs.map(s => s.href)}

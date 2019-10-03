@@ -65,9 +65,16 @@ const IndexPage = () => (
             <div className="inner">
               <h2>No se admiten personas perfectas</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Somos la Iglesia de la gente imperfecta que ha aprendido a
+                amarse. Hemos corrido el riesgo de amar a otros seres humanos
+                igual de imperfectos que nosotros mismos. De lo contrario el
+                amor no sería amor sino un simple artificio, una torpe
+                falsificación de la máxima cristiana "amense los unos a los
+                otros como a sí mismos". Tampoco correremos el riesgo de
+                sentirnos obligados a actuar como seres perfectos. En nuestra
+                comunidad hay permiso de fallar, tenemos licencia para el error.
+                Así se cumple la misión del mismo Cristo al venir a los
+                "enfermos" y no a los "sanos" (Mt. 9:12-13).
               </p>
               {/* <ul className="actions">
                 <li>
@@ -90,9 +97,14 @@ const IndexPage = () => (
                 libertad
               </h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Con esta frase del Conde Zinzendorf resumimos nuestro "ser
+                inclusivos" tal como Cristo mismo lo fue. Lo esencial nos une y
+                nos une eternamente. Para cualquier tipo de relación el milagro
+                de descubrir qué es lo esencial y qué no lo es supone gran parte
+                de la garantía de estabilidad y sanidad. Descubrirnos unos a
+                otros en una gran diversidad de expresiones espirituales,
+                sabiéndonos unidos por un Solo Cristo, representa una de las
+                fortalezas de nuestra comunidad.
               </p>
               {/* <ul className="actions">
                 <li>
@@ -112,9 +124,19 @@ const IndexPage = () => (
             <div className="inner">
               <h2>Somos naturalmente sobrenaturales</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Ni somos completamente naturales ni completamente espirituales.
+                Tenemos la hermosa particularidad de haber nacido a una vida
+                espiritual en medio de nuestra vida natural. Esto hace que nos
+                veamos como simples seres humanos, pero llenos de vida eterna y
+                del poder del Espíritu Santo. Naturalmente fallamos, nos ponemos
+                tristes, nos deprimimos, nosenfermamos, pero Sobrenaturalmente
+                podemos vivir la caricia sanadora de nuestro Dios y creer en la
+                caritativa intervención de Cristo en todas las esferas de
+                nuestra vida. Esto nos protege de convertirnos en seres
+                arrogantes que se creen superiores. Si alguno de nosotros falla
+                o entra en una depresión, entenderemos que aun sigue siendo un
+                ser humano Natural y lo animaremos con la esperanza de lo
+                Sobrenatural que nos ha sido dado (Hch. 1:8).
               </p>
               {/* <ul className="actions">
                 <li>
