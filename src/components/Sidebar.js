@@ -30,7 +30,7 @@ export class Sidebar extends Component {
               currentClassName="active"
               offset={-300}
             >
-              {tabs.map((tab, i) => {
+              {tabs.map((tab) => {
                 const { href, content } = tab;
                 return (
                   <li key={href}>

@@ -64,21 +64,9 @@ const IndexPage = () => (
           <div className="content">
             <div className="inner">
               <h2>No se admiten personas perfectas</h2>
-              {/* <p>
-                Somos la Iglesia de la gente imperfecta que ha aprendido a
-                amarse. Hemos corrido el riesgo de amar a otros seres humanos
-                igual de imperfectos que nosotros mismos. De lo contrario el
-                amor no sería amor sino un simple artificio, una torpe
-                falsificación de la máxima cristiana "amense los unos a los
-                otros como a sí mismos". Tampoco correremos el riesgo de
-                sentirnos obligados a actuar como seres perfectos. En nuestra
-                comunidad hay permiso de fallar, tenemos licencia para el error.
-                Así se cumple la misión del mismo Cristo al venir a los
-                "enfermos" y no a los "sanos" (Mt. 9:12-13).
-              </p> */}
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
+                  <Link className="button" to="/no-se-admiten-personas-perfectas">
                     Conocé más
                   </Link>
                 </li>
@@ -98,7 +86,7 @@ const IndexPage = () => (
               </h2>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/lo-esencial">
+                  <Link className="button" to="/lo-esencial-libertad">
                     Conocé más
                   </Link>
                 </li>
@@ -117,24 +105,9 @@ const IndexPage = () => (
           <div className="content">
             <div className="inner">
               <h2>Somos naturalmente sobrenaturales</h2>
-              {/* <p>
-                Ni somos completamente naturales ni completamente espirituales.
-                Tenemos la hermosa particularidad de haber nacido a una vida
-                espiritual en medio de nuestra vida natural. Esto hace que nos
-                veamos como simples seres humanos, pero llenos de vida eterna y
-                del poder del Espíritu Santo. Naturalmente fallamos, nos ponemos
-                tristes, nos deprimimos, nos enfermamos, pero Sobrenaturalmente
-                podemos vivir la caricia sanadora de nuestro Dios y creer en la
-                caritativa intervención de Cristo en todas las esferas de
-                nuestra vida. Esto nos protege de convertirnos en seres
-                arrogantes que se creen superiores. Si alguno de nosotros falla
-                o entra en una depresión, entenderemos que aun sigue siendo un
-                ser humano Natural y lo animaremos con la esperanza de lo
-                Sobrenatural que nos ha sido dado (Hch. 1:8).
-              </p> */}
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
+                  <Link className="button" to="/naturalmente-sobrenaturales">
                     Conocé más
                   </Link>
                 </li>
@@ -223,6 +196,7 @@ const IndexPage = () => (
             href="http://ciudadrefugiocr.org/"
             className="button primary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Visitá ciudadrefugiocr.org
           </a>
@@ -233,25 +207,22 @@ const IndexPage = () => (
         <div className="inner">
           <h2>Conversemos</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
+            Solicitános información o contános lo querás.
           </p>
           <div className="split style1">
             <section>
               <form method="post" action="#">
                 <div className="fields">
                   <div className="field half">
-                    <label for="name">Nombre</label>
+                    <label htmlFor="name">Nombre</label>
                     <input type="text" name="nombre" id="name" />
                   </div>
                   <div className="field half">
-                    <label for="email">Correo electrónico</label>
+                    <label htmlFor="email">Correo electrónico</label>
                     <input type="text" name="email" id="email" />
                   </div>
                   <div className="field">
-                    <label for="mensaje">Mensaje</label>
+                    <label htmlFor="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="message" rows="5" />
                   </div>
                 </div>
@@ -277,8 +248,12 @@ const IndexPage = () => (
                   </span>
                 </li>
                 <li>
+                  <h3>Reuniones</h3>
+                  <span>Domingos 10:30 a.m.</span>
+                </li>
+                <li>
                   <h3>Correo electrónico</h3>
-                  <a mailto="info@interludio.org">info@interludio.org</a>
+                  <a mailto="info@interludio.org" >info@interludio.org</a>
                 </li>
                 <li>
                   <h3>Redes sociales</h3>

@@ -5,7 +5,7 @@ const Footer = () => (
   <footer id="footer" className="wrapper style1-alt">
     <div className="inner">
       <ul className="menu">
-        <li>Comunidad Interludio Costa Rica &copy; 2018.</li>
+        <li>Comunidad Interludio, Costa Rica &copy; 2018.</li>
       </ul>
     </div>
   </footer>

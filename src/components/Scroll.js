@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import smoothscroll from 'smoothscroll-polyfill';
 import React from 'react';
 import PropTypes from 'prop-types';
