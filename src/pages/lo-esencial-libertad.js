@@ -19,9 +19,9 @@ const SecondPage = () => (
             libertad.
           </h1>
           {/* <small>Nikolaus Ludwig von Zinzendorf und Pottendorf</small> */}
-          <span className="image fit">
+          <div className="valores-img">
             <img src={esencialImg} alt="" />
-          </span>
+          </div>
           <p>
             Con esta frase del Conde Zinzendorf resumimos nuestro &quot;ser
             inclusivos&quot; tal como Cristo mismo lo fue. Lo esencial nos une y nos

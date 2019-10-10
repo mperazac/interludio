@@ -18,9 +18,9 @@ const SecondPage = () => (
             Somos naturalmente sobrenaturales
           </h1>
           {/* <small>John Wimber</small> */}
-          <span className="image fit">
+          <div className="valores-img">
             <img src={natSobnatImg} alt="" />
-          </span>
+          </div>
           <p>Ni somos completamente naturales ni completamente espirituales.
           Tenemos la hermosa particularidad de haber nacido a una vida espiritual
           en medio de nuestra vida natural. Esto hace que nos veamos como simples

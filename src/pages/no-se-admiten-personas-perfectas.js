@@ -18,9 +18,9 @@ const SecondPage = () => (
             No se admiten personas perfectas
           </h1>
           {/* <small>John Burke</small> */}
-          <span className="image fit">
+          <div className="valores-img">
             <img src={esencialImg} alt="" />
-          </span>
+          </div>
           <p>
             Esta es la comunidad de la gente imperfecta que ha aprendido a
             amarse. Hemos corrido el riesgo de amar a otros seres humanos igual
