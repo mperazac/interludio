@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 
-import esencialImg from '../images/valores/esencial.jpg';
+import esencialImg from '../images/valores/esencial-sm.jpg';
 import Header from '../components/Header';
 
 const SecondPage = () => (

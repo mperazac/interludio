@@ -3,8 +3,9 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
-import pic1 from '../images/valores/imperfectos.jpg';
-import pic2 from '../images/valores/esencial-sm.jpg';
+import imperfectosImg from '../images/valores/imperfectos.jpg';
+import loEsencialImg from '../images/valores/esencial-sm.jpg';
+import naturalmenteImg from '../images/valores/naturalmente-sobrenaturales.jpg';
 import ciudadRefugioLogo from './../images/ciudad_refugio-logo.png';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
@@ -59,7 +60,7 @@ const IndexPage = () => (
       <section id="valores" className="wrapper style2 spotlights">
         <section>
           <a href="/#" className="image" alt="image">
-            <img src={pic1} alt="" data-position="center center" />
+            <img src={imperfectosImg} alt="" data-position="center center" />
           </a>
           <div className="content">
             <div className="inner">
@@ -76,7 +77,7 @@ const IndexPage = () => (
         </section>
         <section>
           <a href="/#" className="image">
-            <img src={pic2} alt="" data-position="top center" />
+            <img src={loEsencialImg} alt="" data-position="top center" />
           </a>
           <div className="content">
             <div className="inner">
@@ -97,7 +98,7 @@ const IndexPage = () => (
         <section>
           <a href="/#" className="image">
             <img
-              src="https://via.placeholder.com/438x438"
+              src={naturalmenteImg}
               alt=""
               data-position="25% 25%"
             />

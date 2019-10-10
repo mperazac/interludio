@@ -9,7 +9,7 @@ const Header = () => (
     </Link>
     <nav>
       <ul>
-        <li>
+        {/* <li>
           <Link to="/#vision-mision">Visión y Misión</Link>
         </li>
         <li>
@@ -26,6 +26,9 @@ const Header = () => (
         </li>
         <li>
           <Link to="/#contacto">Contacto</Link>
+        </li> */}
+        <li>
+          <Link to="/#valores" className="icon fa-arrow-left">Volver</Link>
         </li>
       </ul>
     </nav>

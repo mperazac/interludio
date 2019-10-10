@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 
-import natSobnatImg from '../images/valores/sobrenaturales.jpg';
+import natSobnatImg from '../images/valores/naturalmente-sobrenaturales.jpg';
 import Header from '../components/Header';
 
 const SecondPage = () => (
