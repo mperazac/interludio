@@ -146,7 +146,7 @@ const IndexPage = () => (
           <div className="content">
             <div className="inner">
               <div className="text">
-                <h2>Se puede pertenecer antes de creer.</h2>
+                <h2>Se puede pertenecer antes que creer.</h2>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ const IndexPage = () => (
         <section className="slogan-3">
           <div className="content">
             <div className="inner">
-              <h2>Jesús debe de ser experimentado, no sólo explicado.</h2>
+              <h2>Jesús debe de ser experimentado, no explicado.</h2>
             </div>
           </div>
         </section>
