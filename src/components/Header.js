@@ -7,13 +7,28 @@ const Header = () => (
     <Link className="title" to="/">
       <img src={logo} alt="interludio-logo" className="logo" />
     </Link>
-    {/* <nav>
+    <nav>
       <ul>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link to="/#vision-mision">Visión y Misión</Link>
+        </li>
+        <li>
+          <Link to="/#valores">Valores</Link>
+        </li>
+        <li>
+          <Link to="/#madurez-espiritual">Madurez Espiritual</Link>
+        </li>
+        <li>
+          <Link to="/#slogans">Slogans</Link>
+        </li>
+        <li>
+          <Link to="/#ciudad-refugio">Ciudad Refugio</Link>
+        </li>
+        <li>
+          <Link to="/#contacto">Contacto</Link>
         </li>
       </ul>
-    </nav> */}
+    </nav>
   </header>
 );
 
