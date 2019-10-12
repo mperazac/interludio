@@ -231,9 +231,9 @@ const IndexPage = () => (
                 </div>
                 <ul className="actions">
                   <li>
-                    <a href="/#" className="button submit">
+                    <button type="submit" className="button submit">
                       Enviar Mensaje
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </form>
