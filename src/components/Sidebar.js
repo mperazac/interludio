@@ -22,6 +22,9 @@ export class Sidebar extends Component {
     const { tabs } = this.state;
     return (
       <section id="sidebar">
+        <div className="mobile-logo">
+          <img src={logo} alt="interludio-logo" />
+        </div>
         <div className="inner">
           <nav>
             <Scrollspy
@@ -30,7 +33,7 @@ export class Sidebar extends Component {
               offset={-300}
             >
               <Scroll type="id" element="intro">
-                <div style={{ display: 'contents', width: '100%' }}>
+                <div style={{ display: 'contents' }}>
                   <img src={logo} alt="interludio-logo" className="logo" />
                 </div>
               </Scroll>

@@ -168,6 +168,7 @@
     }
 
     nav {
+      display: none; // In favor of react-burger-menu
       height: inherit;
       line-height: inherit;
 
@@ -199,7 +200,20 @@
     }
   }
 
-  @include breakpoint('<=small') {
-    display: none;
+  .mobile-logo {
+    position: absolute;
+    img {
+      height: 3.4em;
+    }
+    @include breakpoint('>large') {
+      display: none;
+    }
+    @include breakpoint('<=large') {
+      left: 38%;
+    }
+    @include breakpoint('<=medium') {
+      left: 30%;
+    }
   }
+  
 }

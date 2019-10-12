@@ -9,9 +9,11 @@ import naturalmenteImg from '../images/valores/naturalmente-sobrenaturales.jpg';
 import ciudadRefugioLogo from './../images/ciudad_refugio-logo.png';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
+import MobileMenu from '../components/MobileMenu';
 
 const IndexPage = () => (
   <Layout>
+    <MobileMenu/>
     <Sidebar />
 
     <div id="wrapper">
@@ -230,10 +232,8 @@ const IndexPage = () => (
                   </div>
                 </div>
                 <ul className="actions">
-                  <button>
-                    <button type="submit" className="button submit">
-                      Enviar Mensaje
-                    </button>
+                  <button type="submit" className="button submit">
+                    Enviar Mensaje
                   </button>
                 </ul>
               </form>
