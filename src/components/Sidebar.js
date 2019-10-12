@@ -23,13 +23,17 @@ export class Sidebar extends Component {
     return (
       <section id="sidebar">
         <div className="inner">
-          <img src={logo} alt="interludio-logo" className="logo" />
           <nav>
             <Scrollspy
               items={tabs.map(s => s.href)}
               currentClassName="active"
               offset={-300}
             >
+              <Scroll type="id" element="intro">
+                <div style={{ display: 'contents', width: '100%' }}>
+                  <img src={logo} alt="interludio-logo" className="logo" />
+                </div>
+              </Scroll>
               {tabs.map((tab) => {
                 const { href, content } = tab;
                 return (

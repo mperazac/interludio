@@ -230,11 +230,11 @@ const IndexPage = () => (
                   </div>
                 </div>
                 <ul className="actions">
-                  <li>
+                  <button>
                     <button type="submit" className="button submit">
                       Enviar Mensaje
                     </button>
-                  </li>
+                  </button>
                 </ul>
               </form>
             </section>
