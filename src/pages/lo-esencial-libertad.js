@@ -24,14 +24,17 @@ const SecondPage = () => (
           </div>
           <p>
             Con esta frase del Conde Zinzendorf resumimos nuestro &quot;ser
-            inclusivos&quot; tal como Cristo mismo lo fue. Lo esencial nos une y nos
-            une eternamente. Para cualquier tipo de relación el milagro de
+            inclusivos&quot; tal como Cristo mismo lo fue. Lo esencial nos une y
+            nos une eternamente. Para cualquier tipo de relación el milagro de
             descubrir qué es lo esencial y qué no lo es supone gran parte de la
             garantía de estabilidad y sanidad. Descubrirnos unos a otros en una
             gran diversidad de expresiones espirituales, sabiéndonos unidos por
             un Solo Cristo, representa una de las fortalezas de nuestra
             comunidad.
           </p>
+          <a href="/#valores" className="button icon fa-arrow-left">
+            Volver
+          </a>
         </div>
       </section>
     </div>

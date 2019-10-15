@@ -14,9 +14,7 @@ const SecondPage = () => (
     <div id="wrapper">
       <section id="main" className="wrapper">
         <div className="inner">
-          <h1 className="major">
-            No se admiten personas perfectas
-          </h1>
+          <h1 className="major">No se admiten personas perfectas</h1>
           {/* <small>John Burke</small> */}
           <div className="valores-img">
             <img src={esencialImg} alt="" />
@@ -33,6 +31,9 @@ const SecondPage = () => (
             venir a los &quot;enfermos&quot; y no a los &quot;sanos&quot; (Mt.
             9:12-13).
           </p>
+          <a href="/#valores" className="button icon fa-arrow-left">
+            Volver
+          </a>
         </div>
       </section>
     </div>
