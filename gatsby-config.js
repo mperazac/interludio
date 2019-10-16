@@ -1,4 +1,4 @@
-module.exports = {
+const cfg = {
   pathPrefix: `/gatsby-starter-hyperspace/`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
     title: 'Interludio Costa Rica',
@@ -21,3 +21,15 @@ module.exports = {
     'gatsby-plugin-offline',
   ],
 };
+
+if (process.env.CONTEXT === 'production') {
+  const googleAnalyticsCfg = {
+    resolve: 'gatsby-plugin-google-analytics',
+    options: {
+      trackingId: 'UA-37317421-1',
+    },
+  };
+  cfg.plugins.push(googleAnalyticsCfg);
+}
+
+module.exports = cfg;
