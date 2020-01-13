@@ -13,7 +13,7 @@ import MobileMenu from '../components/MobileMenu';
 
 const IndexPage = () => (
   <Layout>
-    <MobileMenu/>
+    <MobileMenu />
     <Sidebar />
 
     <div id="wrapper">
@@ -69,7 +69,10 @@ const IndexPage = () => (
               <h2>No se admiten personas perfectas</h2>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/no-se-admiten-personas-perfectas">
+                  <Link
+                    className="button"
+                    to="/no-se-admiten-personas-perfectas"
+                  >
                     Conocé más
                   </Link>
                 </li>
@@ -99,11 +102,7 @@ const IndexPage = () => (
         </section>
         <section>
           <a href="/#" className="image">
-            <img
-              src={naturalmenteImg}
-              alt=""
-              data-position="25% 25%"
-            />
+            <img src={naturalmenteImg} alt="" data-position="25% 25%" />
           </a>
           <div className="content">
             <div className="inner">
@@ -209,12 +208,15 @@ const IndexPage = () => (
       <section id="contacto" className="wrapper style1 fade-up">
         <div className="inner">
           <h2>Conversemos</h2>
-          <p>
-            Solicitános información o contános lo querás.
-          </p>
+          <p>Solicitános información o contános lo querás.</p>
           <div className="split style1">
             <section>
-              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <form
+                name="contact"
+                method="post"
+                data-netlify="true"
+                data-netlify-recaptcha="true"
+              >
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="fields">
@@ -256,7 +258,7 @@ const IndexPage = () => (
                 </li>
                 <li>
                   <h3>Correo electrónico</h3>
-                  <a mailto="info@interludio.org" >info@interludio.org</a>
+                  <a mailto="info@interludio.org">info@interludio.org</a>
                 </li>
                 <li>
                   <h3>Redes sociales</h3>
