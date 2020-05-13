@@ -16,17 +16,23 @@
 
 .testimonial {
   margin: 10px;
-  border: 0.5px solid #50456a;
+  // border: 0.5px solid #50456a;
+  background-color: #50456a;
   border-radius: 10px;
   display: grid;
+  padding: 20px 20px 0;
+
   @include breakpoint('>=medium') {
     grid-template-rows: 2fr 1fr;
   }
-  padding: 5px 10px 0;
+
+  .content {
+    line-height: 1.2;
+  }
 
   .name {
     display: grid;
     font-weight: bold;
-    justify-content: end;
+    // justify-content: end;
   }
 }

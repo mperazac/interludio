@@ -16,7 +16,7 @@ const SecondPage = () => (
           <h2>Celebramos 12 años juntos</h2>
           <div>¿Qué es Interludio para vos?</div>
           <Link className="button" to="/mi-historia">
-            Contános
+            Contanos
           </Link>
           <div className="testimonials">
             <Testimonial content="Me encanta" name="Ana Gomez" />
@@ -33,8 +33,8 @@ const SecondPage = () => (
               name="Mario"
             />
             <Testimonial
-              content="Desde el primer momento me senti bienvenido"
-              name="Mario"
+              content="Desde el primer momento me senti bienvenido. Este es un texto muy largo para probar como se ve y como cambia en la pantalla y que tal se ve, en caso de que me encante escribir y sea muy extendido en mis palabras, de esta forma, me aseguro de que se vea bien en diferentes pantallas. Mas texto, para probar"
+              name="Steven"
             />
           </div>
         </div>
