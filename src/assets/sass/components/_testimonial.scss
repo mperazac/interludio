@@ -1,0 +1,32 @@
+.testimonials {
+  border: 1px solid #000;
+  background-color: #3c2f59;
+  padding: 10px;
+  display: grid;
+  @include breakpoint('>=medium') {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint('>=large') {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  margin-top: 20px;
+}
+
+.testimonial {
+  margin: 10px;
+  border: 0.5px solid #50456a;
+  border-radius: 10px;
+  display: grid;
+  @include breakpoint('>=medium') {
+    grid-template-rows: 2fr 1fr;
+  }
+  padding: 5px 10px 0;
+
+  .name {
+    display: grid;
+    font-weight: bold;
+    justify-content: end;
+  }
+}

@@ -1,33 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../assets/sass/main.scss';
-const Footer = () => (
-  <section>
-    <form
-      name="testimonials"
-      method="post"
-      data-netlify="true"
-      data-netlify-recaptcha="true"
-    >
-      <input type="hidden" name="bot-field" />
-      <input type="hidden" name="form-name" value="contact" />
-      <div className="fields">
-        <div className="field">
-          <label htmlFor="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="message" rows="5" />
-        </div>
-        <div className="field half">
-          <label htmlFor="name">Nombre</label>
-          <input type="text" name="nombre" id="name" />
-        </div>
-      </div>
-      <ul className="actions">
-        <button type="submit" className="button submit">
-          Guardar
-        </button>
-      </ul>
-    </form>
-  </section>
-);
 
-export default Footer;
+class Testimonial extends React.Component {
+  static propTypes = {
+    content: PropTypes.string,
+    name: PropTypes.string,
+  };
+  render() {
+    return (
+      <div className="testimonial">
+        <div className="content">{this.props.content}</div>
+        <p className="name">{this.props.name}</p>
+      </div>
+    );
+  }
+}
+
+export default Testimonial;
