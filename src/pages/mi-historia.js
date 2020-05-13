@@ -18,6 +18,7 @@ const SecondPage = () => (
               <form
                 name="testimonials"
                 method="post"
+                action="/interludio-para-mi"
                 data-netlify="true"
                 data-netlify-recaptcha="true"
               >
