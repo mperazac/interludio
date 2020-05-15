@@ -3,12 +3,8 @@
   background-color: #3c2f59;
   padding: 10px;
   display: grid;
-  @include breakpoint('>=medium') {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   @include breakpoint('>=large') {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   margin-top: 20px;
@@ -23,7 +19,7 @@
   padding: 20px 20px 0;
 
   @include breakpoint('>=medium') {
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 2fr auto;
   }
 
   .content {
