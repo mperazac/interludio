@@ -1,0 +1,90 @@
+import React, { useState } from 'react';
+import { useMutation } from '@apollo/react-hooks';
+import gql from 'graphql-tag';
+
+import Layout from '../components/layout';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import { GET_TESTIMONIALS } from './mi-historia';
+
+const ADD_TESTIMONIAL = gql`
+  mutation insert_testimonial($nombre: String!, $mensaje: String!) {
+    insert_testimonials(objects: { name: $nombre, comment: $mensaje }) {
+      returning {
+        name
+        comment
+      }
+    }
+  }
+`;
+
+const ContanosTuHistoria = () => {
+  const [addTestimonial] = useMutation(ADD_TESTIMONIAL);
+  const [mensaje, setTestimonialMessage] = useState('');
+  const [nombre, setTestimonialName] = useState('');
+
+  return (
+    <Layout>
+      <Header />
+      <div id="stories">
+        <section id="main" className="wrapper">
+          <div className="inner">
+            <h2>Celebramos 12 años juntos</h2>
+            <p>Contanos, ¿que es Interludio para vos?</p>
+            <div className="style1">
+              <section>
+                <form
+                  name="testimonials"
+                  action="/mi-historia"
+                  method="post"
+                  onSubmit={e => {
+                    addTestimonial({
+                      variables: {
+                        nombre,
+                        mensaje,
+                      },
+                    });
+                  }}
+                >
+                  <input type="hidden" name="bot-field" />
+                  <input type="hidden" name="form-name" value="contact" />
+                  <div className="fields">
+                    <div className="field">
+                      <label htmlFor="mensaje">Mensaje</label>
+                      <textarea
+                        name="mensaje"
+                        id="message"
+                        rows="5"
+                        value={mensaje}
+                        onChange={e => setTestimonialMessage(e.target.value)}
+                      />
+                    </div>
+                    <div className="field half">
+                      <label htmlFor="name">Nombre</label>
+                      <input
+                        type="text"
+                        name="nombre"
+                        id="name"
+                        value={nombre}
+                        onChange={e => setTestimonialName(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <ul className="actions">
+                    <button type="submit" className="button submit">
+                      Guardar
+                    </button>
+                  </ul>
+                </form>
+              </section>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <Footer />
+    </Layout>
+  );
+};
+
+export default ContanosTuHistoria;

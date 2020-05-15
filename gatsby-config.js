@@ -17,6 +17,15 @@ const cfg = {
         icon: 'src/assets/img/logo_favicon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'HASURA',
+        fieldName: 'hasura',
+        url: `https://interludio-information.herokuapp.com/v1/graphql`,
+        refetchInterval: 300,
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
