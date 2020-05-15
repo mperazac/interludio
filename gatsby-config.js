@@ -23,6 +23,7 @@ const cfg = {
         typeName: 'HASURA',
         fieldName: 'hasura',
         url: `https://interludio-information.herokuapp.com/v1/graphql`,
+        refetchInterval: 300,
       },
     },
     'gatsby-plugin-sass',

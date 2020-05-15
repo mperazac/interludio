@@ -31,6 +31,11 @@ const IndexPage = () => (
                 </a>
               </Scroll>
             </li>
+            <li>
+              <Link className="button primary" to="/mi-historia">
+                12° Aniversario
+              </Link>
+            </li>
           </ul>
         </div>
       </section>
