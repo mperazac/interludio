@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/react-hooks';
+import { navigate, Link } from 'gatsby';
 import gql from 'graphql-tag';
 
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { GET_TESTIMONIALS } from './mi-historia';
 
 const ADD_TESTIMONIAL = gql`
   mutation insert_testimonial($nombre: String!, $mensaje: String!) {
@@ -35,7 +35,6 @@ const ContanosTuHistoria = () => {
               <section>
                 <form
                   name="testimonials"
-                  action="/mi-historia"
                   method="post"
                   onSubmit={e => {
                     addTestimonial({
@@ -44,6 +43,7 @@ const ContanosTuHistoria = () => {
                         mensaje,
                       },
                     });
+                    navigate(`/mi-historia`);
                   }}
                 >
                   <input type="hidden" name="bot-field" />
@@ -74,6 +74,9 @@ const ContanosTuHistoria = () => {
                     <button type="submit" className="button submit">
                       Guardar
                     </button>
+                    <Link key="link" className="button" to="/mi-historia">
+                      Ver Todas
+                    </Link>
                   </ul>
                 </form>
               </section>
