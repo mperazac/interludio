@@ -37,6 +37,7 @@ const ContanosTuHistoria = () => {
                   name="testimonials"
                   method="post"
                   onSubmit={e => {
+                    e.preventDefault();
                     addTestimonial({
                       variables: {
                         nombre,
