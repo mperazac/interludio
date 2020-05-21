@@ -17,27 +17,8 @@ const IndexPage = () => (
     <Sidebar />
 
     <div id="wrapper">
-      <section id="intro" className="wrapper style1 fullscreen fade-up">
-        <div className="inner">
-          <h1>Interludio Costa Rica</h1>
-          <p>
-            Somos la Iglesia de la gente imperfecta que ha aprendido a amarse.
-          </p>
-          <ul className="actions">
-            <li>
-              <Scroll type="id" element="vision-mision">
-                <a href="#vision-mision" className="button primary">
-                  Conocé más
-                </a>
-              </Scroll>
-            </li>
-            <li>
-              <Link className="button primary" to="/mi-historia">
-                12° Aniversario
-              </Link>
-            </li>
-          </ul>
-        </div>
+      <section id="intro" className="style1 fullscreen fade-up">
+        <Link className="inner aniversario" to="/mi-historia"></Link>
       </section>
 
       <section id="vision-mision" className="wrapper style3 fade-up">
