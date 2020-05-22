@@ -36,20 +36,26 @@
   .aniversario {
     height: 90vh;
     background: url('images/Aniversario.png');
-    background-position: center;
+    background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
-    justify-self: center;
 
     @include breakpoint('<large') {
-      margin-top: 20px;
-      height: 40vh;
+      margin-top: 45px;
+      height: 45vh;
     }
 
     @include breakpoint('<medium') {
-      height: 32vh;
+      height: 75vh;
+      width: 75vw;
       margin-top: 45px;
+    }
+
+    @include breakpoint('<small') {
+      height: 28vh;
+      width: 90vw;
+      margin-top: 60px;
     }
 
     // @include orientation('landscape') {
