@@ -6,6 +6,7 @@ import gql from 'graphql-tag';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import aniversarioImg from '../images/aniversario/Aniversario-2.png';
 
 const ADD_TESTIMONIAL = gql`
   mutation insert_testimonial($nombre: String!, $mensaje: String!) {
@@ -29,7 +30,13 @@ const ContanosTuHistoria = () => {
       <div id="stories">
         <section id="main" className="wrapper">
           <div className="inner">
-            <h2>Celebramos 12 años juntos</h2>
+            <div className="image fit">
+              <img
+                src={aniversarioImg}
+                alt="Aniversario"
+                data-position="center center"
+              />
+            </div>
             <p>Contanos, ¿que es Interludio para vos?</p>
             <div className="style1">
               <section>
@@ -75,7 +82,13 @@ const ContanosTuHistoria = () => {
                     <button type="submit" className="button submit">
                       Guardar
                     </button>
-                    <Link key="link" className="button" to="/mi-historia">
+                  </ul>
+                  <ul className="actions">
+                    <Link
+                      key="link"
+                      className="button submit"
+                      to="/mi-historia"
+                    >
                       Ver Todas
                     </Link>
                   </ul>
