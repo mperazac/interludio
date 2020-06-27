@@ -12,6 +12,7 @@ export class Sidebar extends Component {
         { content: 'Valores', href: 'valores' },
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
+        { content: 'Protocolo COVID-19', href: 'protocolo', newPage: true },
         { content: 'Ciudad Refugio', href: 'ciudad-refugio' },
         { content: 'Contacto', href: 'contacto' },
       ],
@@ -37,9 +38,14 @@ export class Sidebar extends Component {
                   <img src={logo} alt="interludio-logo" className="logo" />
                 </div>
               </Scroll>
-              {tabs.map((tab) => {
+              {tabs.map(tab => {
                 const { href, content } = tab;
-                return (
+
+                return tab.newPage ? (
+                  <li key={href}>
+                    <a href={`${href}`}>{content}</a>
+                  </li>
+                ) : (
                   <li key={href}>
                     <Scroll type="id" element={href}>
                       <a href={`#${href}`}>{content}</a>
