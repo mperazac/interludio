@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
-import protocoloPdf from '../assets/docs/NotProtocolo.pdf';
+import protocoloPdf from '../assets/docs/Protocolo.pdf';
 
 const Protocolo = () => (
   <Layout>
