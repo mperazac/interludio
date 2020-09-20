@@ -13,7 +13,7 @@ export class Sidebar extends Component {
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
         { content: 'Protocolo COVID-19', href: 'protocolo', newPage: true },
-        { content: 'Ciudad Refugio', href: 'ciudad-refugio' },
+        { content: 'Donaciones', href: 'donaciones' },
         { content: 'Contacto', href: 'contacto' },
       ],
     };
@@ -46,12 +46,12 @@ export class Sidebar extends Component {
                     <a href={`${href}`}>{content}</a>
                   </li>
                 ) : (
-                  <li key={href}>
-                    <Scroll type="id" element={href}>
-                      <a href={`#${href}`}>{content}</a>
-                    </Scroll>
-                  </li>
-                );
+                    <li key={href}>
+                      <Scroll type="id" element={href}>
+                        <a href={`#${href}`}>{content}</a>
+                      </Scroll>
+                    </li>
+                  );
               })}
             </Scrollspy>
           </nav>

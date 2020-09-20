@@ -22,9 +22,6 @@ const Header = () => (
           <Link to="/#slogans">Slogans</Link>
         </li>
         <li>
-          <Link to="/#ciudad-refugio">Ciudad Refugio</Link>
-        </li>
-        <li>
           <Link to="/#contacto">Contacto</Link>
         </li> */}
         <li>
