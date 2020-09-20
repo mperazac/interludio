@@ -8,6 +8,7 @@ export class Sidebar extends Component {
     super(props);
     this.state = {
       tabs: [
+        { content: '', href: '', hidden: true }, //The empty value is to leave a space in Scrollspy for the logo
         { content: 'Visión y Misión', href: 'vision-mision' },
         { content: 'Valores', href: 'valores' },
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
@@ -38,7 +39,7 @@ export class Sidebar extends Component {
                   <img src={logo} alt="interludio-logo" className="logo" />
                 </div>
               </Scroll>
-              {tabs.map(tab => {
+              {tabs.filter(s => !s.hidden).map(tab => {
                 const { href, content } = tab;
 
                 return tab.newPage ? (
