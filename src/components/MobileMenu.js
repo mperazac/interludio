@@ -11,7 +11,7 @@ export class MobileMenu extends Component {
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
         { content: 'Protocolo COVID-19', href: 'protocolo', newPage: true },
-        { content: 'Ciudad Refugio', href: 'ciudad-refugio' },
+        { content: 'Donaciones', href: 'donaciones' },
         { content: 'Contacto', href: 'contacto' },
       ],
       menuOpen: false,

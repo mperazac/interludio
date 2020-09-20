@@ -8,12 +8,13 @@ export class Sidebar extends Component {
     super(props);
     this.state = {
       tabs: [
+        { content: '', href: '', hidden: true }, //The empty value is to leave a space in Scrollspy for the logo
         { content: 'Visión y Misión', href: 'vision-mision' },
         { content: 'Valores', href: 'valores' },
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
         { content: 'Protocolo COVID-19', href: 'protocolo', newPage: true },
-        { content: 'Ciudad Refugio', href: 'ciudad-refugio' },
+        { content: 'Donaciones', href: 'donaciones' },
         { content: 'Contacto', href: 'contacto' },
       ],
     };
@@ -38,7 +39,7 @@ export class Sidebar extends Component {
                   <img src={logo} alt="interludio-logo" className="logo" />
                 </div>
               </Scroll>
-              {tabs.map(tab => {
+              {tabs.filter(s => !s.hidden).map(tab => {
                 const { href, content } = tab;
 
                 return tab.newPage ? (
@@ -46,12 +47,12 @@ export class Sidebar extends Component {
                     <a href={`${href}`}>{content}</a>
                   </li>
                 ) : (
-                  <li key={href}>
-                    <Scroll type="id" element={href}>
-                      <a href={`#${href}`}>{content}</a>
-                    </Scroll>
-                  </li>
-                );
+                    <li key={href}>
+                      <Scroll type="id" element={href}>
+                        <a href={`#${href}`}>{content}</a>
+                      </Scroll>
+                    </li>
+                  );
               })}
             </Scrollspy>
           </nav>

@@ -183,30 +183,34 @@ const IndexPage = () => (
       </section>
 
       <section
-        id="ciudad-refugio"
+        id="donaciones"
         className="wrapper style4 fullscreen fade-up"
       >
         <div className="inner">
-          <div className="logo-container">
-            <img
-              src={ciudadRefugioLogo}
-              alt="ciudad-refugio-logo"
-              className="ciudad-refugio-logo"
-            />
-          </div>
-          <h2>¿Ya sos parte de este sueño?</h2>
+          <h2>Ofrendas, diezmos y donaciones</h2>
+          <h3>Sinpe Móvil:</h3>
           <p>
-            Ciudad Refugio serán las instalaciones de Interludio para construir
-            un lugar para todos y todas.
+            <a href="phone:7167-0185">7167-0185</a>
           </p>
-          <a
-            href="http://ciudadrefugiocr.org/"
-            className="button primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visitá ciudadrefugiocr.org
-          </a>
+          <h3>BCR - IBAN:</h3>
+          <h4>
+            DÓLARES:
+            </h4>
+          <p>
+            CR53015201001031423961
+            </p>
+          <h4>
+            COLONES:
+            </h4>
+          <p>
+            CR 57015201001031423889
+              </p>
+          <h4>
+            CEDULA JURIDICA:
+            </h4>
+          <p>
+            3002621401
+          </p>
         </div>
       </section>
 
