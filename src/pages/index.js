@@ -33,7 +33,7 @@ const IndexPage = () => (
             </li>
             <li>
               <Link className="button primary" to="/mi-historia">
-                12° Aniversario
+                13° Aniversario
               </Link>
             </li>
           </ul>
