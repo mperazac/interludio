@@ -10,7 +10,6 @@ export class MobileMenu extends Component {
         { content: 'Valores', href: 'valores' },
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
-        { content: 'Protocolo COVID-19', href: 'protocolo', newPage: true },
         { content: 'Donaciones', href: 'donaciones' },
         { content: 'Contacto', href: 'contacto' },
       ],
