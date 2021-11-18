@@ -254,7 +254,11 @@ const IndexPage = () => (
                 <li>
                   <h3>Dirección</h3>
                   <span>
-                    Auditorio Universidad Veritas Zapote
+                  Salitrillos de Montes de Oca
+                    <br />
+                    Google Maps: <a href="https://goo.gl/maps/UAQAtx5KZKmAvePF6">Refugio Interludio</a>
+                    <br />
+                    <a href="https://waze.com/ul/hd1u2869x4">Waze</a>
                     <br />
                     San José
                     <br />
@@ -263,7 +267,7 @@ const IndexPage = () => (
                 </li>
                 <li>
                   <h3>Reuniones</h3>
-                  <span>Domingos 10:30 a.m.</span>
+                  <span>Domingos 3:00 p.m.</span>
                 </li>
                 <li>
                   <h3>Correo electrónico</h3>
