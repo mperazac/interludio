@@ -10,6 +10,7 @@ import ciudadRefugioLogo from './../images/ciudad_refugio-logo.png';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
 import MobileMenu from '../components/MobileMenu';
+import Calendar from '../components/Calendar';
 
 const IndexPage = () => (
   <Layout>
@@ -120,6 +121,14 @@ const IndexPage = () => (
                 </li>
               </ul>
             </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="calendario" className="wrapper style2 spotlights">
+        <section>
+          <div class="wrapper">
+            <Calendar/>
           </div>
         </section>
       </section>

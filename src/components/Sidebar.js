@@ -11,6 +11,7 @@ export class Sidebar extends Component {
         { content: '', href: '', hidden: true }, //The empty value is to leave a space in Scrollspy for the logo
         { content: 'Visión y Misión', href: 'vision-mision' },
         { content: 'Valores', href: 'valores' },
+        { content: 'Calendario', href: 'calendar' },
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
         { content: 'Donaciones', href: 'donaciones' },
