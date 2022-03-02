@@ -6,7 +6,6 @@ export default class Calendar extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
     };
@@ -15,37 +14,37 @@ export default class Calendar extends Component {
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
-            <img src="images/calendario/2 - febrero.jpeg" alt="Febrero" />
+            <img src="images/calendario/2-febrero.jpeg" alt="Febrero" />
           </div>
           <div>
-            <img src="images/calendario/3 - marzo.jpeg" alt="Marzo" />
+            <img src="images/calendario/3-marzo.jpeg" alt="Marzo" />
           </div>
           <div>
-            <img src="images/calendario/4 - abril.jpeg" alt="Abril" />
+            <img src="images/calendario/4-abril.jpeg" alt="Abril" />
           </div>
           <div>
-            <img src="images/calendario/5 - mayo.jpeg" alt="Mayo" />
+            <img src="images/calendario/5-mayo.jpeg" alt="Mayo" />
           </div>
           <div>
-            <img src="images/calendario/6 - junio.jpeg" alt="Junio" />
+            <img src="images/calendario/6-junio.jpeg" alt="Junio" />
           </div>
           <div>
-            <img src="images/calendario/7 - julio.jpeg" alt="Julio" />
+            <img src="images/calendario/7-julio.jpeg" alt="Julio" />
           </div>
           <div>
-            <img src="images/calendario/8 - agosto.jpeg" alt="Agosto" />
+            <img src="images/calendario/8-agosto.jpeg" alt="Agosto" />
           </div>
           <div>
-            <img src="images/calendario/9 - septiembre.jpeg" alt="Septiembre" />
+            <img src="images/calendario/9-septiembre.jpeg" alt="Septiembre" />
           </div>
           <div>
-            <img src="images/calendario/10 - octubre.jpeg" alt="Octubre" />
+            <img src="images/calendario/10-octubre.jpeg" alt="Octubre" />
           </div>
           <div>
-            <img src="images/calendario/11 - noviembre.jpeg" alt="Noviembre" />
+            <img src="images/calendario/11-noviembre.jpeg" alt="Noviembre" />
           </div>
           <div>
-            <img src="images/calendario/12 - diciembre.jpeg" alt="Diciembre" />
+            <img src="images/calendario/12-diciembre.jpeg" alt="Diciembre" />
           </div>
         </Slider>
       </div>
