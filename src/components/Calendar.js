@@ -21,7 +21,7 @@ export default class Calendar extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div class="calendar">
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
