@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import Slider from "react-slick";
 import febrero from '../images/calendario/2-febrero.jpeg';
 import marzo from '../images/calendario/3-marzo.jpeg';
@@ -12,13 +12,13 @@ import octubre from '../images/calendario/10-octubre.jpeg';
 import noviembre from '../images/calendario/11-noviembre.jpeg';
 import diciembre from '../images/calendario/12-diciembre.jpeg';
 
-export default class Calendar extends Component {
+export default class Calendar extends React.Component {
   render() {
     const settings = {
       dots: true
     };
     return (
-      <div class="calendar">
+      <div className="calendar">
         <Slider {...settings}>
           <div>
             <img src={febrero} alt="Febrero" />
