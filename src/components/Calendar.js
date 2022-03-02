@@ -15,14 +15,10 @@ import diciembre from '../images/calendario/12-diciembre.jpeg';
 export default class Calendar extends Component {
   render() {
     const settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1
+      dots: true
     };
     return (
       <div class="calendar">
-        <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
             <img src={febrero} alt="Febrero" />
