@@ -127,7 +127,7 @@ const IndexPage = () => (
 
       <section id="calendario" className="wrapper style2 spotlights">
         <section>
-          <div class="wrapper">
+          <div class="gallery">
             <Calendar/>
           </div>
         </section>

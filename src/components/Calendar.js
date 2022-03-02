@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Slider from "react-slick";
 
 export default class Calendar extends Component {
@@ -15,22 +15,37 @@ export default class Calendar extends Component {
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <img src="images/calendario/2 - febrero.jpeg" alt="Febrero" />
           </div>
           <div>
-            <h3>2</h3>
+            <img src="images/calendario/3 - marzo.jpeg" alt="Marzo" />
           </div>
           <div>
-            <h3>3</h3>
+            <img src="images/calendario/4 - abril.jpeg" alt="Abril" />
           </div>
           <div>
-            <h3>4</h3>
+            <img src="images/calendario/5 - mayo.jpeg" alt="Mayo" />
           </div>
           <div>
-            <h3>5</h3>
+            <img src="images/calendario/6 - junio.jpeg" alt="Junio" />
           </div>
           <div>
-            <h3>6</h3>
+            <img src="images/calendario/7 - julio.jpeg" alt="Julio" />
+          </div>
+          <div>
+            <img src="images/calendario/8 - agosto.jpeg" alt="Agosto" />
+          </div>
+          <div>
+            <img src="images/calendario/9 - septiembre.jpeg" alt="Septiembre" />
+          </div>
+          <div>
+            <img src="images/calendario/10 - octubre.jpeg" alt="Octubre" />
+          </div>
+          <div>
+            <img src="images/calendario/11 - noviembre.jpeg" alt="Noviembre" />
+          </div>
+          <div>
+            <img src="images/calendario/12 - diciembre.jpeg" alt="Diciembre" />
           </div>
         </Slider>
       </div>
