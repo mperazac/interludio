@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "react-slick";
+import Carousel from 'react-bootstrap/Carousel';
 import febrero from '../images/calendario/2-febrero.jpeg';
 import marzo from '../images/calendario/3-marzo.jpeg';
 import abril from '../images/calendario/4-abril.jpeg';
@@ -19,41 +19,41 @@ export default class Calendar extends React.Component {
     };
     return (
       <div className="calendar">
-        <Slider {...settings}>
-          <div>
+        <Carousel>
+          <Carousel.Item>
             <img src={febrero} alt="Febrero" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={marzo} alt="Marzo" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={abril} alt="Abril" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={mayo} alt="Mayo" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={junio} alt="Junio" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={julio} alt="Julio" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={agosto} alt="Agosto" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={septiembre} alt="Septiembre" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={octubre} alt="Octubre" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={noviembre} alt="Noviembre" />
-          </div>
-          <div>
+          </Carousel.Item>
+          <Carousel.Item>
             <img src={diciembre} alt="Diciembre" />
-          </div>
-        </Slider>
+          </Carousel.Item>
+        </Carousel>
       </div>
     );
   }
