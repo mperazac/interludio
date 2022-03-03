@@ -20,20 +20,19 @@ export default class Calendar extends React.Component {
     };
   }
 
+  //El getMonth nos va a dar el mes -1 (Enero = 0), debido a que no tenemos imagen para Enero, tenemos que hacer - 1 (Febrero = 0)
   getIndex() {
     let date = new Date();
-    console.log(date.getMonth() + 1);
-    return date.getMonth() + 1;
+    return date.getMonth() - 1;
   }
 
   handleSelect = (selectedIndex, e) => {
-    console.log(selectedIndex);
     this.setState({ index: selectedIndex });
   }
   render() {
     return (
       <div className="calendar">
-        <Carousel activeIndex={this.state.index} onSelect={this.handleSelect}>
+        <Carousel activeIndex={this.state.index} onSelect={this.handleSelect} interval={null}>
           <Carousel.Item>
             <img src={febrero} alt="Febrero" />
           </Carousel.Item>
