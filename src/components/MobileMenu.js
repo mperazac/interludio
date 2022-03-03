@@ -8,6 +8,7 @@ export class MobileMenu extends Component {
       tabs: [
         { content: 'Visión y Misión', href: 'vision-mision' },
         { content: 'Valores', href: 'valores' },
+        { content: 'Calendario', href: 'calendario' },
         { content: 'Madurez Espiritual', href: 'madurez-espiritual' },
         { content: 'Slogans', href: 'slogans' },
         { content: 'Donaciones', href: 'donaciones' },
