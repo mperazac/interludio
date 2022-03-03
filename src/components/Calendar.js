@@ -13,13 +13,27 @@ import noviembre from '../images/calendario/11-noviembre.jpeg';
 import diciembre from '../images/calendario/12-diciembre.jpeg';
 
 export default class Calendar extends React.Component {
-  render() {
-    const settings = {
-      dots: true
+  constructor(props) {
+    super(props);
+    this.state = {
+      index: this.getIndex()
     };
+  }
+
+  getIndex() {
+    let date = new Date();
+    console.log(date.getMonth() + 1);
+    return date.getMonth() + 1;
+  }
+
+  handleSelect = (selectedIndex, e) => {
+    console.log(selectedIndex);
+    this.setState({ index: selectedIndex });
+  }
+  render() {
     return (
       <div className="calendar">
-        <Carousel>
+        <Carousel activeIndex={this.state.index} onSelect={this.handleSelect}>
           <Carousel.Item>
             <img src={febrero} alt="Febrero" />
           </Carousel.Item>

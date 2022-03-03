@@ -87,11 +87,7 @@
 }
 
 .gallery {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 50px;
+  padding: 5%;
 }
 
 .slick-slide img {
@@ -99,6 +95,5 @@
 }
 
 .calendar img {
-  width: 1000px;
-  height: 500px;
+  width: 100%;
 }
