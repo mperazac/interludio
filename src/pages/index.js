@@ -199,7 +199,7 @@ const IndexPage = () => (
           <h2>Ofrendas, diezmos y donaciones</h2>
           <h3>Sinpe Móvil:</h3>
           <p>
-            <a href="phone:7167-0185">7167-0185</a>
+            <a href="phone:7263-6580">7263-6580</a>
           </p>
           <h3>BCR - IBAN:</h3>
           <h4>
